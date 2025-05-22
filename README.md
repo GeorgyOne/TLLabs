@@ -27,6 +27,18 @@ You can pass a custom greeting message:
 python -m tllabs.cli --greet "Hi"
 ```
 
+### ASCII Visualization
+
+You can generate a simple ASCII chart for returns stored in the `DIFF1`
+file using:
+
+```bash
+python -m tllabs.viz --column diff_return_trend_team
+```
+
+This command prints an ASCII line chart for the reconstructed close price
+and its RSI indicator.
+
 ## Development
 
 Tests rely only on the Python standard library and can be executed with:
